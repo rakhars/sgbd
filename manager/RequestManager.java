@@ -1,9 +1,13 @@
+package manager;
 import java.io.Serializable;
 import java.lang.reflect.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import relationobj.Rel;
+import relationobj.Syntax;
 
 public class RequestManager implements Serializable{
     Syntax syntax;
